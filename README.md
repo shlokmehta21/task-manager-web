@@ -7,8 +7,8 @@ This template provides a minimal setup to get started with a task manager app bu
 1. Clone or download the repository code:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/shlokmehta21/task-manager-web.git
+   cd task-manager-web
    ```
 
 2. Install dependencies:

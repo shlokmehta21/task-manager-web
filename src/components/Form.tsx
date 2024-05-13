@@ -43,6 +43,7 @@ const Form: React.FC = () => {
       // If editTask is not null, then we are editing a task
       if (editTask) {
         handleEditTask(editTask.id, task);
+        setEditTask(null);
       } else {
         addTask(task);
       }
