@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# React Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get started with a task manager app built using React, TypeScript, Vite and Material-UI. It includes HMR (Hot Module Replacement) for fast development feedback and ESLint rules for code quality.
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone or download the repository code:
 
-## Expanding the ESLint configuration
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Install dependencies:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   npm install
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Start the application:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to [http://localhost:5173/](http://localhost:5173/) to see the app running.
+
+## Description
+
+The task manager app allows users to track, create, update, and delete tasks. It offers the following features:
+
+- Task creation: Users can create new tasks with relevant details.
+- Task lists: Tasks are displayed in a list format for easy viewing and management.
+- Task updates: Users can update task details such as title, description, status, etc.
+- Task deletion: Tasks can be deleted when they are no longer needed.
+- Dark/light mode toggle: Users can toggle between dark and light mode for better readability and visual preference.
+
+This app provides a simple yet functional interface for managing tasks efficiently. With its React, TypeScript, and Vite setup, development is fast and smooth, allowing for quick iterations and improvements.
